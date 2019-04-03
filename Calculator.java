@@ -4,5 +4,9 @@ public class Calculator{
 		char Operator = args[1];
 		double secondValue=Double.parseDouble(args[2]);
 	}
+	public double multiplication(double firstvalue, double secondValue){
+		double result=firstvalue*secondValue;
+		return result;
 
+	}
 }
